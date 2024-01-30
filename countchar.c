@@ -10,7 +10,7 @@ int countchar(char *word)
 {
 	int count = 0;
 
-	for (word; *word != '\0'; word++)
+	while (*word != '\0')
 	{
 		count++;
 	}
