@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  *
@@ -8,10 +8,11 @@ include "main.h"
 
 int countchar(char *word)
 {
-	int i;
+	int count = 0;
 
-	for (i = 0; i != '\n'; i++)
+	for (word; *word != '\0'; word++)
 	{
-		
+		count++;
 	}
+	return (count);
 }
